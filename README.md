@@ -1,4 +1,4 @@
- AgriGuard
+ # AgriGuard
 
 ## Smart Infection Detection & Intelligent Pesticide Spraying System
 
@@ -6,7 +6,7 @@ AgriGuard is an AI-powered smart agriculture system that detects plant diseases 
 
 ---
 
-## ⚙️Problem Statement
+### ⚙️Problem Statement
 
 Traditional farming practices rely on **uniform pesticide spraying**, which leads to:
 
