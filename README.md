@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e6952681-a758-44c5-8411-ef935fa72986" /># 🌱 AgriGuard
+ AgriGuard
 
 ## Smart Infection Detection & Intelligent Pesticide Spraying System
 
