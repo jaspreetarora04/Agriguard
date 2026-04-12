@@ -19,7 +19,7 @@ There is a need for an **automated, intelligent, and cost-effective system** tha
 
 ---
 
-## ⚙️Proposed Solution
+### ⚙️Proposed Solution
 
 AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
@@ -30,7 +30,7 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## ⚙️Key Features
+### ⚙️Key Features
 
 * AI-Based Disease Detection (CNN)
 * Targeted Pesticide Spraying
@@ -41,13 +41,13 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## ⚙️System Architecture
+### ⚙️System Architecture
 
 ![Architecture](docs/architecture.png)
 
 ---
 
-## ⚙️Hardware Components
+### ⚙️Hardware Components
 
 * ESP32-CAM (Image Capture + Processing Unit)
 * N-channel MOSFET (IRLZ44N) – Pump switching
@@ -58,7 +58,7 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## 💻 Software Stack
+### 💻 Software Stack
 
 * Python 3
 * Flask (Backend Server)
@@ -66,7 +66,7 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## ⚙️Working Flow
+### ⚙️Working Flow
 
 ### Step 1: Image Capture
 ESP32-CAM captures real-time image of plant leaves.
@@ -91,7 +91,7 @@ ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 ---
 
-## ⚙️Results
+### ⚙️Results
 
 ![Output](results/sample_output.png)
 
@@ -101,7 +101,7 @@ ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 ---
 
-## 🎥 Demo
+### 🎥 Demo
 
 [Watch Demo](demo/video_link.txt)
 
@@ -118,7 +118,7 @@ Unlike traditional systems, AgriGuard introduces:
 
 ---
 
-## ⚙️Impact
+### ⚙️Impact
 
 * Reduces environmental pollution
 * Saves pesticide cost
@@ -127,7 +127,7 @@ Unlike traditional systems, AgriGuard introduces:
 
 ---
 
-## ⚙️Future Scope
+### ⚙️Future Scope
 
 * Multi-disease classification
 * Mobile app integration
@@ -138,7 +138,7 @@ Unlike traditional systems, AgriGuard introduces:
 ---
 
 
-## ⚙️Authors
+### ⚙️Authors
 
 * Jaspreet
 * Vartika Singh
