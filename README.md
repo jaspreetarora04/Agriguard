@@ -6,7 +6,7 @@ AgriGuard is an AI-powered smart agriculture system that detects plant diseases 
 
 ---
 
-## 📌 Problem Statement
+## ⚙️Problem Statement
 
 Traditional farming practices rely on **uniform pesticide spraying**, which leads to:
 
@@ -32,23 +32,22 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ## ⚙️ Key Features
 
-* 🤖 **AI-Based Disease Detection (CNN)**
-* 🎯 **Targeted Pesticide Spraying**
-* 📊 **Infection-Level Based Decision System**
-* 💧 **Automatic Pump Control (MOSFET switching)**
-* 📷 **ESP32-CAM Image Capture**
-* 🌐 **Flask Web Interface for Monitoring**
-* ♻️ **Eco-Friendly & Cost-Effective**
+* 🤖AI-Based Disease Detection (CNN)
+* 🎯Targeted Pesticide Spraying
+* 📊Infection-Level Based Decision System
+* 💧Automatic Pump Control (MOSFET switching)
+* 📷ESP32-CAM Image Capture
+* ♻️Eco-Friendly & Cost-Effective
 
 ---
 
-## 🧠 System Architecture
+## ⚙️System Architecture
 
 ![Architecture](docs/architecture.png)
 
 ---
 
-## ⚙️ Hardware Components
+## ⚙️Hardware Components
 
 * ESP32-CAM (Image Capture + Processing Unit)
 * N-channel MOSFET (IRLZ44N) – Pump switching
@@ -67,7 +66,7 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## 🔄 Working Flow
+## ⚙️Working Flow
 
 ### Step 1: Image Capture
 
@@ -97,48 +96,13 @@ ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 ---
 
-## ⚙️ How to Run
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/your-username/Agriguard.git
-cd Agriguard
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run Flask Server
-
-```bash
-python backend/app.py
-```
-
-### 4. Setup Hardware
-
-* Upload code to ESP32-CAM
-* Connect MOSFET + Pump
-* Ensure same WiFi network
-
-### 5. Start System
-
-* Capture image
-* AI detects infection
-* Pump automatically sprays
-
----
-
-## 📊 Results
+## ⚙️Results
 
 ![Output](results/sample_output.png)
 
-* 🎯 Accurate disease detection
-* 💧 Reduced pesticide usage (~70%)
-* ⚡ Real-time automated response
+*  Accurate disease detection
+*  Reduced pesticide usage (~70%)
+*  Real-time automated response
 
 ---
 
@@ -148,7 +112,7 @@ python backend/app.py
 
 ---
 
-## 🧪 Innovation
+## ⚙️Innovation
 
 Unlike traditional systems, AgriGuard introduces:
 
@@ -159,7 +123,7 @@ Unlike traditional systems, AgriGuard introduces:
 
 ---
 
-## 🌍 Impact
+## ⚙️Impact
 
 * Reduces environmental pollution
 * Saves pesticide cost
@@ -168,7 +132,7 @@ Unlike traditional systems, AgriGuard introduces:
 
 ---
 
-## 🔮 Future Scope
+## ⚙️Future Scope
 
 * Multi-disease classification
 * Mobile app integration
@@ -178,13 +142,8 @@ Unlike traditional systems, AgriGuard introduces:
 
 ---
 
-## 📜 License
 
-This project is licensed under the MIT License.
-
----
-
-## 🙌 Authors
+## ⚙️Authors
 
 * Jaspreet
 * Vartika Singh
