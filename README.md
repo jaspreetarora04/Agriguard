@@ -1,4 +1,4 @@
-# 🌱 AgriGuard
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e6952681-a758-44c5-8411-ef935fa72986" /># 🌱 AgriGuard
 
 ## Smart Infection Detection & Intelligent Pesticide Spraying System
 
@@ -19,7 +19,7 @@ There is a need for an **automated, intelligent, and cost-effective system** tha
 
 ---
 
-## 💡 Proposed Solution
+## ⚙️Proposed Solution
 
 AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
@@ -30,14 +30,14 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## ⚙️ Key Features
+## ⚙️Key Features
 
-* 🤖AI-Based Disease Detection (CNN)
-* 🎯Targeted Pesticide Spraying
-* 📊Infection-Level Based Decision System
-* 💧Automatic Pump Control (MOSFET switching)
-* 📷ESP32-CAM Image Capture
-* ♻️Eco-Friendly & Cost-Effective
+* AI-Based Disease Detection (CNN)
+* Targeted Pesticide Spraying
+* Infection-Level Based Decision System
+* Automatic Pump Control (MOSFET switching)
+* ESP32-CAM Image Capture
+* Eco-Friendly & Cost-Effective
 
 ---
 
@@ -69,29 +69,24 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 ## ⚙️Working Flow
 
 ### Step 1: Image Capture
-
 ESP32-CAM captures real-time image of plant leaves.
 
 ### Step 2: AI Analysis
-
 Image is sent to Flask server → processed using CNN model.
 
 ### Step 3: Prediction Output
-
 Model classifies plant into:
 
-* ✅ Healthy
-* ⚠️ Mild Infection
-* ❌ Severe Infection
+* Healthy
+* Mild Infection
+* Severe Infection
 
 ### Step 4: Decision Logic
-
 * Healthy → No spray
 * Mild → Short spray (e.g., 1 sec)
 * Severe → Longer spray (e.g., 3 sec)
 
 ### Step 5: Action
-
 ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 ---
