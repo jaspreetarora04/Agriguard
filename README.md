@@ -1,6 +1,6 @@
 # 🌱 AgriGuard
 
- Smart Infection Detection & Intelligent Pesticide Spraying System
+## Smart Infection Detection & Intelligent Pesticide Spraying System
 
 AgriGuard is an AI-powered smart agriculture system that detects plant diseases in real-time and performs **precision pesticide spraying based on infection level**, reducing chemical wastage and improving crop health.
 
@@ -10,10 +10,10 @@ AgriGuard is an AI-powered smart agriculture system that detects plant diseases 
 
 Traditional farming practices rely on **uniform pesticide spraying**, which leads to:
 
-* ❌ Excessive chemical usage (~60% waste)
-* ❌ Soil degradation & water pollution
-* ❌ Manual inspection (time-consuming & inaccurate)
-* ❌ Spraying on healthy plants (unnecessary cost)
+*  Excessive chemical usage (~60% waste)
+*  Soil degradation & water pollution
+*  Manual inspection (time-consuming & inaccurate)
+*  Spraying on healthy plants (unnecessary cost)
 
 There is a need for an **automated, intelligent, and cost-effective system** that can detect plant infection and apply pesticides only where required.
 
@@ -30,7 +30,7 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## 🚀 Key Features
+## ⚙️ Key Features
 
 * 🤖 **AI-Based Disease Detection (CNN)**
 * 🎯 **Targeted Pesticide Spraying**
@@ -48,7 +48,7 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ---
 
-## 🔌 Hardware Components
+## ⚙️ Hardware Components
 
 * ESP32-CAM (Image Capture + Processing Unit)
 * N-channel MOSFET (IRLZ44N) – Pump switching
