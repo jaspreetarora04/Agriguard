@@ -1,8 +1,8 @@
  # AgriGuard
 
-## Smart Infection Detection & Intelligent Pesticide Spraying System
+## Intelligent Pesticide Spraying System:
 
-AgriGuard is an AI-powered smart agriculture system that detects plant diseases in real-time and performs **precision pesticide spraying based on infection level**, reducing chemical wastage and improving crop health.
+AgriGuard is an AI Based plant disease detection and performs **targeted pesticide spraying mechanism** by automatically controlled a pesticide pump based on prediction.
 
 ---
 
@@ -10,10 +10,10 @@ AgriGuard is an AI-powered smart agriculture system that detects plant diseases 
 
 Traditional farming practices rely on **uniform pesticide spraying**, which leads to:
 
-*  Excessive chemical usage (~60% waste)
+*  Excessive chemical usage.
 *  Soil degradation & water pollution
-*  Manual inspection (time-consuming & inaccurate)
-*  Spraying on healthy plants (unnecessary cost)
+*  Manual inspection which is time-consuming & inaccurate.
+*  Spraying on healthy plants leads to unnecessary cost.
 
 There is a need for an **automated, intelligent, and cost-effective system** that can detect plant infection and apply pesticides only where required.
 
@@ -21,22 +21,21 @@ There is a need for an **automated, intelligent, and cost-effective system** tha
 
 ### ⚙️Proposed Solution
 
-AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
+AgriGuard uses **Embedded System Hardware and Computer Vision ** to create a smart spraying system that:
 
 * Detects plant infection using a **CNN model**
-* Classifies infection levels (**Healthy / Mild / Severe**)
-* Automatically sprays pesticide **based on severity**
-* Avoids spraying on healthy plants
+* Classifies the disease (**Healthy / Infected**)
+* Automatically sprays pesticide **if detected plant leaf  is infected**
+* Avoids spraying on healthy plants.
 
 ---
 
 ### ⚙️Key Features
 
-* AI-Based Disease Detection (CNN)
-* Targeted Pesticide Spraying
-* Infection-Level Based Decision System
-* Automatic Pump Control (MOSFET switching)
 * ESP32-CAM Image Capture
+* CNN Based image classification
+* Targeted Pesticide Spraying
+* Automatic Pump Control through MOSFET switching
 * Eco-Friendly & Cost-Effective
 
 ---
@@ -49,20 +48,20 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 
 ### ⚙️Hardware Components
 
-* ESP32-CAM (Image Capture + Processing Unit)
-* N-channel MOSFET (IRLZ44N) – Pump switching
+* ESP32-CAM : Image Capture + Processing Unit
+* N-channel MOSFET (IRLZ44N) : Pump switching
 * 12V Diaphragm Water Pump
-* Nozzle (Spray mechanism)
-* Power Supply (5V & 12V)
+* Nozzle : Spray mechanism
+* Power Supply : 5V & 12V
 * Connecting wires & circuit
 
 ---
 
 ### 💻 Software Stack
 
-* Python 3
+* Python : Numpy , Tensorflow and  OpenCV
 * Flask (Backend Server)
-* Custom CNN Model
+* Convolution Neural Network CNN) Model
 
 ---
 
@@ -72,19 +71,18 @@ AgriGuard uses **Computer Vision + IoT** to create a smart spraying system that:
 ESP32-CAM captures real-time image of plant leaves.
 
 ### Step 2: AI Analysis
-Image is sent to Flask server → processed using CNN model.
+Image is sent to Flask server through Wifi connection and  processed using CNN model.
 
 ### Step 3: Prediction Output
-Model classifies plant into:
+Model classifies plant image and predict:
 
 * Healthy
-* Mild Infection
-* Severe Infection
+* Infected
 
 ### Step 4: Decision Logic
 * Healthy → No spray
-* Mild → Short spray (e.g., 1 sec)
-* Severe → Longer spray (e.g., 3 sec)
+* Infected → Spray
+
 
 ### Step 5: Action
 ESP32 triggers MOSFET → pump ON → pesticide sprayed.
@@ -97,7 +95,6 @@ ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 *  Accurate disease detection
 *  Reduced pesticide usage (~70%)
-*  Real-time automated response
 
 ---
 
@@ -113,7 +110,6 @@ Unlike traditional systems, AgriGuard introduces:
 
 * **AI-driven infection-level based spraying**
 * **Precision agriculture at low cost**
-* **Real-time decision + action system**
 * **Hardware + AI integration in a single pipeline**
 
 ---
@@ -132,8 +128,6 @@ Unlike traditional systems, AgriGuard introduces:
 * Multi-disease classification
 * Mobile app integration
 * Cloud-based analytics dashboard
-* Solar-powered system
-* Weather-based spraying logic
 
 ---
 
