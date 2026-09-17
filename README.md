@@ -42,8 +42,6 @@ AgriGuard uses **Embedded System Hardware and Computer Vision ** to create a sma
 
 ### ⚙️System Architecture
 
-## System Architecture
-
 ```mermaid
 flowchart TD
     A[ESP32-CAM] --> B[Capture Plant Image]
