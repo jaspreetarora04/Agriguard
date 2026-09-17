@@ -112,7 +112,7 @@ ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 # Agriguard – Intelligent Pesticide Spraying System
 
-[ Video link of Working Project ](https://drive.google.com/file/d/1iXNvRFo-fy9slbyxswfdRgqKMCK-vaEn/view?usp=sharing)
+[ Video link of Working Project ](https://drive.google.com/file/d/1iXNvRFo-fy9slbyxswfdRgqKMcK-vaEn/view?usp=sharing)
 
 ---
 
