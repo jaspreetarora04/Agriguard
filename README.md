@@ -101,7 +101,10 @@ ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 ### ⚙️Results
 
-![Output](results/sample_output.png)
+![Flask_Output](results/Flask_Outut.jpeg_)
+![Serial_Monitor_Output](results/Serial_Monitor_Output.jpeg)
+
+
 
 *  Accurate disease detection
 *  Reduced pesticide usage (~70%)
