@@ -8,7 +8,7 @@ import time
 app = Flask(__name__)
 
 # ===== MODEL LOAD =====
-MODEL_PATH = "model/plant_disease_cnn_final.h5"
+MODEL_PATH = "cnn_model/plant_disease_cnn_final.h5"
 model = tf.keras.models.load_model(MODEL_PATH)
 print(" Model loaded successfully")
 
