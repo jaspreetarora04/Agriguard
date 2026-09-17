@@ -1,5 +1,0 @@
-flask
-numpy
-tensorflow
-opencv-python
-cnn
