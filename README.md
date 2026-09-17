@@ -140,7 +140,8 @@ Unlike traditional systems, AgriGuard introduces:
 
 ### ⚙️Future Scope
 
-* Multi-disease classification
+* Seperate Pre-Processing Pipeline
+* Real farm Deployment
 * Mobile app integration
 * Cloud-based analytics dashboard
 
