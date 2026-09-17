@@ -101,7 +101,7 @@ ESP32 triggers MOSFET → pump ON → pesticide sprayed.
 
 ### ⚙️Results
 
-![Flask_Output](results/Flask_Outut.jpeg_)
+![Flask_Output](results/Flask_Output.jpeg_)
 ![Serial_Monitor_Output](results/Serial_Monitor_Output.jpeg )
 
 
