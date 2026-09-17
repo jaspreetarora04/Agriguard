@@ -1,1 +1,11 @@
 
+flowchart TD
+    A[ESP32-CAM] --> B[Capture Plant Image]
+    B --> C[Wi-Fi / HTTP POST]
+    C --> D[Flask Server]
+    D --> E[CNN Model]
+    E --> F{Prediction}
+    F -->|Healthy| G[No Spraying]
+    F -->|Infected| H[MOSFET]
+    H --> I[12V DC Pump]
+    I --> J[Targeted Spraying]
